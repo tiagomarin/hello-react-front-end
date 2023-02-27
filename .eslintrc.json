@@ -46,6 +46,8 @@
   },
   "ignorePatterns": [
     "dist/",
-    "build/"
+    "build/",
+    "redux/",
+    "components/"
   ]
 }

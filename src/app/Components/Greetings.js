@@ -1,7 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch, shallowEqual } from 'react-redux';
 import { getGreetingMessage } from '../redux/greetingsSlice';
-// import './Greeting.css';
 
 function Greeting() {
   const dispatch = useDispatch();
